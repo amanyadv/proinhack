@@ -1,0 +1,37 @@
+- The Josephus Problem (or Josephus permutation)
+Problem description: N soldiers numbered 1-N are seated together to form a circle, and the soldiers
+numbered 1 are counted in order (1,2,3 ... in this order), and the soldiers counted to m will After
+being killed, the soldiers will count from 1 again. Until the last soldier is left, find the number
+of this soldier. (Note that the numbering is not from 0)
+Ans ->
+- Array
+- Circular LinkedList
+- Recursion
+The idea of ​​recursion is that every time we delete a certain soldier, we renumber the soldiers, and
+then our difficulty is to find out the mapping relationship between the soldier numbers before and
+after the deletion .
+We define the recursive function f (n, m) to return the number of surviving soldiers. Obviously
+when n = 1, f (n, m) = 1. If we can find the relationship between f (n, m) and f (n-1, m), we can
+solve it recursively. We assume that the number of people is n, and those who report to m commit
+suicide. Then the initial number is
+… 1 ... m-2
+m-1
+m
+m + 1
+m + 2 ... n…
+After a deletion, the node numbered m is deleted. After deletion, there are only n-1 nodes left.
+The number conversion relationship before and after deletion is:
+Before deletion --- after deletion
+… ---…
+m-2 --- n-2
+m-1 --- n-1
+m ---- none (because the number was deleted)
+m + 1 --- 1 (because I will count from here next time)
+m + 2 ---- 2
+… ----…
+There are only n-1 nodes in the new ring. And the node numbered m + 1, m + 2, m + 3 before deletion
+ becomes the node numbered 1, 2, 3 after deletion.
+Suppose old is the number of the node before deletion, and new is the number of a node after
+deletion. The relationship between old and new is old = (new + m-1)% n + 1.
+
+

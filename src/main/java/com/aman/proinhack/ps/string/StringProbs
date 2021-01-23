@@ -1,0 +1,5 @@
+- Given a string containing only '(', ')', determine whether the string is valid.
+Note: the empty string is a valid string
+
+- Given a string containing only '(' and ')', find the length of the longest substring containing
+valid parentheses.
