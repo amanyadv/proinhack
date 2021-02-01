@@ -33,4 +33,23 @@ public class BinarySearch {
     return -1;
   }
 
+  public int binarySearchRotated(int[] arr, int l, int h, int tar){
+    if(l > h) {
+      return -1;
+    }
+    int mid = l + (h - l) / 2;
+    if(arr[mid] == tar) {
+      return mid;
+    }
+    if(arr[l] <= arr[mid]) {
+      if (tar >= arr[l] && tar <= arr[mid])
+        return binarySearchRotated(arr, l, mid - 1, tar);
+      return binarySearchRotated(arr, mid + 1, h, tar);
+    }
+    if (tar >= arr[mid] && tar <= arr[h])
+      return binarySearchRotated(arr, mid + 1, h, tar);
+
+    return binarySearchRotated(arr, l, mid - 1, tar);
+  }
+
 }
