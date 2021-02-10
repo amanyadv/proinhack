@@ -1,6 +1,6 @@
 # proinhack
 
-Data Structure:
+### Data Structure:
  - Arrays
  - Linkedlist
  - Stack
@@ -15,7 +15,7 @@ Data Structure:
  - LRU
 
 
-Algorithms:
+### Algorithms:
  - Brute-force
 
  - Recursion
@@ -51,7 +51,7 @@ Algorithms:
  - Branch and Bound
 
 
-Problem solving techniques:
+### Problem solving techniques:
  - Sliding window
  - Two pointer or Iterators
  - Fast and slow pointers 
@@ -70,7 +70,7 @@ Problem solving techniques:
 
 
 
-System Design:
+### System Design:
  - Bit.ly, goo.gl (Short url app)
  - Instagram (Photo sharing app)
  - Facebook, Twitter, LinkedIn (Social media app)
@@ -80,7 +80,7 @@ System Design:
  - 
 
 
-Design Pattrens:
+### Design Pattrens:
   - Singleton
     - eager
     - lazy
@@ -94,8 +94,8 @@ Design Pattrens:
   - Decorator
 
 
-Technologies revision:
- - Core Java [Multithreading, Collections, Java8]
+### Technologies revision:
+ - Core Java [Multi-threading, Collections, Java8]
  - JavaScript
  - Spring boot,data,cloud,security
  - Mysql
@@ -106,11 +106,11 @@ Technologies revision:
  - SQS
  - AWS
 
-Behavioral questions:
+### Behavioral questions:
  - https://leetcode.com/discuss/interview-question/437082/Amazon-Behavioral-questions-or-Leadership-Principles-or-LP
 
 
-Books:
+### Books:
  - Cracking the coding interview (Gayle)
  - Elements of programming interview (Adnan)
  - Progamming interviews exposed (Jonh Mongan)
