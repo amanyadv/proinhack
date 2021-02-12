@@ -14,6 +14,9 @@ public class TS {
     root.left.right = new TreeNode(5);
     root.right.left = new TreeNode(8);
     //btprbs.printAtKthDis(root, 2);
-    btprbs.printAtKthDisQueue(root, 2);
+    //btprbs.printAtKthDisQueue(root, 2);
+    //int h = btprbs.calHeight(root);
+    //System.out.println("Height - "+h);
+    btprbs.inOrderTraversalItr(root);
   }
 }

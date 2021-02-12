@@ -53,18 +53,33 @@
 
 ### Problem solving techniques:
  - Sliding window
+    - fixed size window
+    - dynamic size window
+    - 
  - Two pointer or Iterators
+ 
  - Fast and slow pointers 
+ 
  - Marge Intervals
+ 
  - Cyclic sort
+ 
  - Inplace reversal of linkedlist
+ 
  - Tree BFS
+ 
  - Tree DFS
+ 
  - Two heaps
+ 
  - Subsets
+ 
  - Modified binary search (mid=start+(end-start)/2)
+ 
  - Top k elements
+ 
  - k-ways merge 
+ 
  - Topological sort
 
 
