@@ -8,7 +8,7 @@
  - Hash table
  - Tree
  - Heap
- - Prioriry queue
+ - Priority queue
  - Graph
  - Trie
  - B-tree
